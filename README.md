@@ -1,6 +1,6 @@
-# Scotland Project
+# Hotel Project
 
-My main goal with this small project was to learn more about positioning using Flexbox.
+My main goal with this small project was to learn more inputs and positioning using Flexbox.
 
 ![alt text](https://github.com/ragazziana/hotelproject/blob/master/images/travellyprint.png?raw=true "Javascript")
 
