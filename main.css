@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.navbar{
+    padding: 60px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 600;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 40px;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.right-menu p{
+    display: inline;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.right-menu .login{
+    margin-right: 30px;
+}
+
+.right-menu .signup{
+    background-color: black;
+    height: 30px;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color: white;
+}
+
+.search{
+    width: 12px;
+    height: 12px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .imghero{
+    margin-top: 20px;
+    width: 91%;
+    height: 60vh;
+    background-image: url(/images/markus-spiske-g5ZIXjzRGds-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imghero h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.imghero p{
+    color: white;
+    margin-top: 30px;
+}
+
+/*Select*/
+
+.choose-options{
+    background-color: white;
+    width: 80%;
+    height: 15vh;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.formulario{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+select, label{
+    display:block;
+}
+
+.fa-map-marker,
+.fa-bed{
+    color: black;
+    float: left;
+    margin-right: 10px;
+}
+
+.labelforlocation,
+.checkout,
+.checkin,
+.guest{
+    font-size: .8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#location,
+#guest{
+    border: none;
+}
+
+/*Calendar*/
+
+#checkin,
+#checkout{
+    border: none;
+    text-transform: uppercase;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}

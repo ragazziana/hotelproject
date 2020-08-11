@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' 
+rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>Hotel Project</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+            <p class="logo">Travelly</p>
+
+            <ul class="menu">
+                <li>About Us</li>
+                <li>News</li>
+                <li>Reviews</li>
+                <li>Places</li>
+                <li><img class="search" src="/images/search.png" alt="Search"></li>
+                </ul>       
+
+            <div class="right-menu">
+                <p class="login">Log in</p>
+                <p class="signup">Sign Up</p>
+            </div>
+        </nav>
+
+        <main>
+            <div class="hero">
+              <div class="imghero">
+                  <h1>The best hotels of the whole world</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                  
+                <div class="choose-options">
+
+                    <form  class="formulario">
+
+
+                    <div class="location">
+                        <label class="labelforlocation"for="location">Location</label>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                        <select name="location" id="location">
+                            <option>Los Angeles</option>
+                            <option>Brasil</option>
+                        </select>
+                    </div>
+
+                    <div class="date">
+                    <label class="checkin" for="checkin">Check in</label>
+                    <input type="date" id="checkin" name="checkin">
+                    </div>
+
+                    <div class="date1">
+                    <label class="checkout" for="checkout">Check out</label>
+                    <input type="date" id="checkout" name="checkout">
+                    </div>
+
+                    <div class="guests">
+                        <label class="guest"for="guest">Guests</label>
+                        <i class="fa fa-bed" aria-hidden="true"></i>
+                        <select name="guest" id="guest">
+                            <option>Single Room</option>
+                            <option>Double Room</option>
+                        </select>
+                    </div>
+                    <button class="botao">Search</button>
+
+                    </form>
+
+                </div>
+
+              </div>
+            </div>
+        </main>
+    
+    </header>
+</body>
+</html>
